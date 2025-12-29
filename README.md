@@ -44,27 +44,6 @@ python src/main.py --input examples/sample_input.mp4 --mode funny
 
 ---
 
-## Contributing
-
-Contributions are welcome!
-
-1. Fork the repo
-2. Create a new branch for your feature:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a Pull Request
-
----
-
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
