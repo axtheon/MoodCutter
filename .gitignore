@@ -1,0 +1,20 @@
+# .gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env/
+venv/
+
+# Video/audio files
+*.mp4
+*.wav
+*.mov
+
+# System files
+.DS_Store
+Thumbs.db
