@@ -1,20 +1,37 @@
-# .gitignore
+# Audio files (except examples)
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
 
-# Python cache
+# But allow example files
+!examples/audio/test_audio.wav
+!examples/audio/*.wav
+
+# User-generated outputs
+output/
+temp/
+*.tmp
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 
-# Virtual environment
-.env/
-venv/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Video/audio files
-*.mp4
-*.wav
-*.mov
-
-# System files
+# OS
 .DS_Store
 Thumbs.db
